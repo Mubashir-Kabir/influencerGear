@@ -126,6 +126,75 @@ nav div a{
 }
 
 
+.featuredProducts{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.fpContainer{
+    display: grid;
+    /* align-items: center; */
+    grid-template-columns: 1fr 2fr;
+    column-gap: 96px;
+}
+.fpContainer img{
+    width: 100%;
+}
+.fpContainer h2{
+    font-size: 38px;
+    margin-top: 0;
+}
+.joinBtn{
+    /* display: flex;
+    align-items: center;
+    width: 140px;
+    justify-content: space-evenly; */
+    align-items: center;
+    width: 155px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 20px;
+    gap: 8px;
+    color: white;
+    border: none;
+    background-color: #E02C6D;
+
+}
+
+
+
 footer{
-    height: 20vh;
+    height: 240px;
+    background-color: #0a0826;
+    margin-left: -120px;
+    margin-right: -120px;
+    color: white;
+    text-align: center;
+}
+.footerContainer h3{
+    font-size: 24px;
+}
+.footerContainer p{
+    font-size: 14px;
+    color: #D9DBE1;
+}
+/* .footerContainer{
+
+} */
+.socialMedia{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.mediaLink{
+    width: 32px;
+    height: 32px;
+    background-color: #22213c;
+    padding: 5px;
+    border-radius: 50%;
+}
+.mediaLink i{
+    font-size: 1.5em;
+
 }
